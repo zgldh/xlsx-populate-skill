@@ -2,6 +2,10 @@
 
 一个用于 OpenCode/Claude Code 的 Skill，用于在保留原有格式的前提下编辑 Excel 文件。
 
+[![GitHub](https://img.shields.io/badge/GitHub-zgldh%2Fxlsx--populate--skill-blue)](https://github.com/zgldh/xlsx-populate-skill)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![AgentSkillsRepo](https://img.shields.io/badge/AgentSkillsRepo-Submit-green)](https://agentskillsrepo.com/)
+
 ## 特点
 
 - ✅ **保留原有格式** - 不破坏原始文件的样式、合并单元格
@@ -12,18 +16,46 @@
 
 ## 安装
 
+### 方式 1：通过 npx 安装（推荐）
+
+```bash
+npx skills add zgldh/xlsx-populate-skill
+```
+
+### 方式 2：克隆到项目目录
+
+```bash
+# 克隆到项目的 .opencode/skills/ 目录
+git clone https://github.com/zgldh/xlsx-populate-skill.git .opencode/skills/xlsx-populate
+```
+
+### 方式 3：全局安装
+
+```bash
+# 克隆到用户配置目录
+git clone https://github.com/zgldh/xlsx-populate-skill.git ~/.config/opencode/skills/xlsx-populate
+```
+
+### 依赖安装
+
 ```bash
 npm install xlsx-populate
 ```
 
+## 支持的 AI 编码助手
+
+本 skill 兼容以下 AI 编码助手：
+
+| 工具 | 安装命令 |
+|------|---------|
+| **OpenCode** | `npx skills add zgldh/xlsx-populate-skill` |
+| **Claude Code** | `npx skills add zgldh/xlsx-populate-skill` |
+| **Cursor** | `安装到 .cursor/skills/` 目录 |
+| **Goose** | `安装到 .goose/skills/` 目录 |
+| **Goose** | `安装到 .roo/skills/` 目录 |
+| **Windsurf** | `安装到 .codeium/windsurf/skills/` 目录 |
+
 ## 使用方法
-
-### 在 OpenCode/Claude Code 中使用
-
-```bash
-# 添加此 skill
-npx skills add <your-github-username>/xlsx-populate-skill
-```
 
 ### 直接使用
 
@@ -66,7 +98,7 @@ async function editExcel() {
 
 ```bash
 # 克隆仓库
-git clone https://github.com/<your-username>/xlsx-populate-skill.git
+git clone https://github.com/zgldh/xlsx-populate-skill.git
 cd xlsx-populate-skill
 
 # 安装依赖
