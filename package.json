@@ -1,0 +1,34 @@
+{
+  "name": "xlsx-populate-skill",
+  "version": "1.0.0",
+  "description": "OpenCode/Claude Code Skill for editing Excel files while preserving original formatting",
+  "main": "examples/excel-processor.js",
+  "scripts": {
+    "example:basic": "node examples/basic-usage.js",
+    "example:quotation": "node examples/quotation-editor.js examples/data/quotation.xlsx examples/output/quotation-edited.xlsx",
+    "example:processor": "node examples/excel-processor.js"
+  },
+  "keywords": [
+    "opencode",
+    "claude-code",
+    "skill",
+    "excel",
+    "xlsx",
+    "spreadsheet",
+    "office",
+    "data-processing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "xlsx-populate": "^1.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<your-username>/xlsx-populate-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<your-username>/xlsx-populate-skill/issues"
+  },
+  "homepage": "https://github.com/<your-username>/xlsx-populate-skill#readme"
+}
