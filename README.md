@@ -1,3 +1,5 @@
+
+
 # Processing Excel Files Skill
 
 [![GitHub](https://img.shields.io/badge/GitHub-zgldh%2Fxlsx--populate--skill-blue)](https://github.com/zgldh/xlsx-populate-skill)
@@ -130,6 +132,15 @@ newSheet.range('A1:D1').merged(true).style({
 });
 ```
 
+To run the bundled examples locally, install dependencies and use the provided scripts:
+
+```bash
+npm install
+npm run example:basic
+npm run example:quotation
+npm run example:processor
+```
+
 ---
 
 ## 📖 Reference Materials | 参考材料
@@ -169,7 +180,7 @@ MIT 许可证 - 详见 [LICENSE](LICENSE) 文件。
 
 **English**: Issues and Pull Requests are welcome! Follow [skill-creator best practices](https://github.com/anthropics/skills/tree/main/skill-creator).
 
-**中文**: 欢迎提交 Issue 和 Pull Request！请遵循 [skill-creator 最佳实践](https://github.com/anthropics/skills/tree/main/skill-creator)。
+**中文**: 欢迎提交 Issue 和 Pull Request！请遵循 [skill-creator 最佳实践](https://github.com/anthropics/skills/tree/main/skill-creator).
 
 ---
 
